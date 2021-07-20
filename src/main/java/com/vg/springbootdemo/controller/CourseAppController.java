@@ -47,6 +47,7 @@ public class CourseAppController {
 	public void updateTopic(@RequestBody Topic topic, @PathVariable String id) {
 		topicService.updateTopic(topic, id);
 	}
+	//testing
 	
 	@RequestMapping(method = RequestMethod.DELETE,value = "/topics/{id}")
 	public void updateTopic(@PathVariable String id) {
